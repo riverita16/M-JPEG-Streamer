@@ -7,7 +7,7 @@ import psutil
 
 def close_image_viewer():
     for proc in psutil.process_iter(['pid', 'name']):
-        if 'mspmsn' in proc.info['name'].lower() or 'preview' in proc.info['name'].lower():
+        if 'photos' in proc.info['name'].lower() or 'preview' in proc.info['name'].lower():
             proc.terminate()
 
 def start_client(ip, port, ms):
