@@ -59,7 +59,7 @@ def start_client(ip, port, ms):
 
             image_data.seek(0)
 
-            print(f'Decompression took {(end-start) * 1000} ms')
+            print(f'Decompression took {(end-start) * 1000:.4f} ms')
 
             # Open the image using Pillow
             image = Image.open(image_data)
