@@ -4,7 +4,6 @@ from PIL import Image
 from io import BytesIO
 import struct
 import psutil
-import os
 
 def close_image_viewer():
     for proc in psutil.process_iter(['pid', 'name']):
