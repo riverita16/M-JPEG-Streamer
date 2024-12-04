@@ -22,6 +22,6 @@ Enter port to connect to: <port>
 Enter the value for {x}-ms display duration: <x-ms/fps>
 ```
 
-### Demo
+### YouTube Demo
 
-[Update this link](youtube.com)
+[PA3 Group 5 Demo](https://youtu.be/ru1OGuniHnE)
